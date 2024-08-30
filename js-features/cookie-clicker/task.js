@@ -1,5 +1,5 @@
-let counter = document.getElementById('clicker__counter');
-let cookie = document.getElementById('cookie');
+let counter = document.getElementById("clicker__counter");
+let cookie = document.getElementById("cookie");
 
 function clicker() {
 	counter.textContent++;
