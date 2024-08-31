@@ -12,13 +12,19 @@ for (i = 1; i < 10; i += 1) {
 			miss.textContent++;
 		}
 
-		if (deadMole.textContent == 3) {
+		if (deadMole.textContent == 10) {
 			alert("Победа!");
+			deadMole.textContent = 0;
+			miss.textContent = 0;
 		} else if (miss.textContent == 5) {
 			alert("Вы проиграли!");
+			deadMole.textContent = 0;
+			miss.textContent = 0;
 		};
-	}
 
+
+
+	}
 
 
 	hole.onclick = clickAction;
